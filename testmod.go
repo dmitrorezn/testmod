@@ -304,11 +304,11 @@ func StandartWorkersMap() *Cache{
 	teacherC := *teacher
 	teacherC.Position = "Chief"
 
-	cache1.Add("developer",&developerC)
-	cache1.Add("doctor",&doctorC)
-	cache1.Add("manager",&managerC)
-	cache1.Add("accountant",&accountantC)
-	cache1.Add("teacher",&teacherC)
+	cache1.Add("developerCh",&developerC)
+	cache1.Add("doctorCh",&doctorC)
+	cache1.Add("managerCh",&managerC)
+	cache1.Add("accountantCh",&accountantC)
+	cache1.Add("teacherCh",&teacherC)
     
 	return cache1
 }
